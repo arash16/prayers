@@ -6,11 +6,11 @@
 
 ### Other Repositories
 
-[https://github.com/morris821028]
+https://github.com/morris821028
 
-[https://github.com/lamphanviet/competitive-programming]
+https://github.com/lamphanviet/competitive-programming
 
-[https://github.com/dnr2/maratona]
+https://github.com/dnr2/maratona
 
-[https://github.com/prajogotio/UVa]
+https://github.com/prajogotio/UVa
 
