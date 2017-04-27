@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	char ch;
-	while((ch=getchar())!=EOF)
-		cout<<ch;
+    char ch;
+    while((ch=getchar())!=EOF)
+        cout<<ch;
 }

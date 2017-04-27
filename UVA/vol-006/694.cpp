@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 694
   Name: The Collatz Sequence
   Author: Arash Shakery

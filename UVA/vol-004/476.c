@@ -18,14 +18,14 @@ int main(){
  int i=0,j,rcount,found;
  float p1,p2;
  char c;
- 
+
  while (scanf("%c",&c)!=-1){
     if(c!='r')break;
     scanf("%f%f%f%f\n",&r[i].x1,&r[i].y1,&r[i].x2,&r[i].y2);
     i++;
  }
  rcount=i;
- 
+
  j=1;
  while (scanf("%f%f",&p1,&p2)!=-1){
     if((p1>9999)&&(p2>9999))break;

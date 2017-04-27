@@ -24,21 +24,21 @@ void colorit(int x,int color)
 
 int main(){
  int i,j,a,b;
- 
+
  while (scanf("%d",&n)!=-1){
    if(!n)return 0;
    scanf("%d",&l);
-   
+
    for(i=0;i<201;i++)
      for(j=0;j<201;j++){
        m[i][j]=c[i]=0;}
-       
+
    for(i=0;i<l;i++)
    {
      scanf("%d %d",&a,&b);
      m[a][b]=m[b][a]=1;
    }
-   
+
    e=0;colorit(a,1);
    if(e) printf("NOT BICOLORABLE.\n");
    else  printf("BICOLORABLE.\n");

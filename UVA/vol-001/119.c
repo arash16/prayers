@@ -49,7 +49,7 @@ int main()
          addmoney(name,t);
        }
    }
-   
+
    for(i=0;i<n;i++)
      printf("%s %d\n",persons[i].name,persons[i].money);
  }

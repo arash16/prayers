@@ -16,7 +16,7 @@ int main()
 {
  int i,j,exit,n;
  short bkx,bky,wkx,wky;
- 
+
  n=1;
  while (n)
  {
@@ -41,14 +41,14 @@ int main()
    }
    getchar();
    if(exit==64)break;
-   
+
    if (check(bkx,bky)==1)
      printf("Game #%d: black king is in check.\n",n);
    else if(check(wkx,wky)==1)
      printf("Game #%d: white king is in check.\n",n);
    else
      printf("Game #%d: no king is in check.\n",n);
-     
+
    n++;
  }
  return 0;
@@ -72,7 +72,7 @@ char rec(int x,int y,int dx,int dy)
     return 1;
   if(board[x][y]!='.')
     return 0;
-    
+
   if (rec(x+dx,y+dy,dx,dy))
     return 1;
   return 0;
@@ -85,7 +85,7 @@ char check(int x,int y)
   if(cp(x+1,y+2) || cp(x-1,y+2) || cp(x+1,y-2) || cp(x-1,y-2) ||
      cp(x+2,y+1) || cp(x-2,y+1) || cp(x+2,y-1) || cp(x-2,y-1))
      return 1;
-     
+
   //Pawn
   if(board[x][y]=='k')
   {
@@ -107,7 +107,7 @@ char check(int x,int y)
 
   //Bishop
   if(board[x][y]=='k')c='B';else c='b';
-  if (rec(x+1,y+1,1,1)==1  || rec(x-1,y+1,-1,1)==1 || 
+  if (rec(x+1,y+1,1,1)==1  || rec(x-1,y+1,-1,1)==1 ||
       rec(x+1,y-1,1,-1)==1 || rec(x-1,y-1,-1,-1)==1)
     return 1;
 
@@ -115,9 +115,9 @@ char check(int x,int y)
   if(board[x][y]=='k')c='Q';else c='q';
   if (rec(x+1,y,1,0) || rec(x-1,y,-1,0) || rec(x,y+1,0,1) || rec(x,y-1,0,-1))
     return 1;
-  if (rec(x+1,y+1,1,1)  || rec(x-1,y+1,-1,1) || 
+  if (rec(x+1,y+1,1,1)  || rec(x-1,y+1,-1,1) ||
       rec(x+1,y-1,1,-1) || rec(x-1,y-1,-1,-1))
     return 1;
-    
+
   return 0;
 }

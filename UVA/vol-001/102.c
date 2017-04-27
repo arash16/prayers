@@ -17,13 +17,13 @@ int main()
  char mins[4];
  char BGC[]="BGC";
  char str[][4]={"BCG","BGC","CBG","CGB","GBC","GCB"};
- 
+
  while (scanf("%d%d%d%d%d%d%d%d%d",&A[0][0],&A[0][1],&A[0][2]
                                   ,&A[1][0],&A[1][1],&A[1][2]
                                   ,&A[2][0],&A[2][1],&A[2][2])!=EOF)
  {
    mini=-1;
-   
+
    for(k=0;k<6;k++)
    {
      moves=0;
@@ -31,7 +31,7 @@ int main()
       for(j=0;j<3;j++)
        if (str[k][i]!=BGC[j])
         moves+=A[i][j];
-     
+
      if(moves<mini || mini==-1)
      {
        mini=moves;

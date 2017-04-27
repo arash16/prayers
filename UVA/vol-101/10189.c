@@ -14,7 +14,7 @@ int main()
 {
      int x,y,i,j,i2,j2,t,n;
      char A[101][101];
-       
+
      n=1;
 
      scanf("%d %d\n",&y,&x);
@@ -23,8 +23,8 @@ int main()
         for(i=0;i<101;i++)
          for(j=0;j<101;j++)
           A[i][j]=0;
-         
-         
+
+
         for(i=1;i<=y;i++)
         {
           for(j=1;j<=x;j++)

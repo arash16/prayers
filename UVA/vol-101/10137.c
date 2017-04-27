@@ -1,6 +1,6 @@
 /*
   >>~~ ACM PROBLEM ~~<<
-  
+
   ID: 10137
   Name: The Trip
   Author: Arash Shakery
@@ -16,7 +16,7 @@ int main()
      while (scanf("%d\n",&students)!=-1)
      {
        if(!students)break;
-       
+
        sum=0;
        for(i=1;i<=students;i++)
        {
@@ -39,7 +39,7 @@ int main()
            sum2+=avg2-expense[i];
 
        sum=sum1>sum2?sum1:sum2;
-           
+
        printf("$%.2lf\n",sum);
      }
   return 0;

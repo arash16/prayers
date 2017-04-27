@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 305
   Name: Joseph
   Author: Arash Shakery
@@ -38,7 +38,7 @@ int main()
            }
            e=1;
            printf("%d\n",ans);
-               
+
      }
   return 0;
 }

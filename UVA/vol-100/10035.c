@@ -20,7 +20,7 @@ int main()
    l1=i;
    i=0;while(n2[i])i++;
    l2=i;
-   
+
    for(i=11;i>=0;i--)
     if(i>11-l1)
      n1[i]=n1[l1+i-12]-48;
@@ -32,7 +32,7 @@ int main()
      n2[i]=n2[l2+i-12]-48;
     else
      n2[i]=0;
-     
+
    count=0;
    for(i=11;i;i--)
      if(n1[i]+n2[i]>9)
@@ -40,7 +40,7 @@ int main()
        count++;
        n1[i-1]++;
      }
-     
+
    if(count)printf("%d",count);
    else printf("No");
    if(count>1)printf(" carry operations.\n");

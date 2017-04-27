@@ -11,16 +11,16 @@ class Main {
 
         int cse = 1;
         while (in.hasNextInt()) {
-        	int n = in.nextInt(),
-        		f = in.nextInt();
+            int n = in.nextInt(),
+                f = in.nextInt();
 
-        	BigInteger p = BigInteger.ZERO;
-        	if (n==0 && f==0) break;
-        	for (int i=0; i<n; i++)
-        		p = p.add(in.nextBigInteger());
+            BigInteger p = BigInteger.ZERO;
+            if (n==0 && f==0) break;
+            for (int i=0; i<n; i++)
+                p = p.add(in.nextBigInteger());
 
-        	pw.printf("Bill #%d costs %s: each friend should pay %s\n\n", cse++, 
-        			p.toString(), p.divide(BigInteger.valueOf(f)).toString());
+            pw.printf("Bill #%d costs %s: each friend should pay %s\n\n", cse++,
+                    p.toString(), p.divide(BigInteger.valueOf(f)).toString());
         }
         pw.flush();
     }

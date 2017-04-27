@@ -22,7 +22,7 @@ int main()
  while (scanf("%d",&n)!=-1)
  {
    if(!n)break;
-   
+
    f=0;
    for(i=2;i<n;i++)
    {
@@ -31,7 +31,7 @@ int main()
        f=i;
        break;
      }
-   }  
+   }
    if(f)printf("%d = %d + %d\n",n,f,n-f);
    else printf("Goldbach's conjecture is wrong.\n");
  }

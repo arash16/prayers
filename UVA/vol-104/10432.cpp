@@ -5,9 +5,9 @@ using namespace std;
 
 #define PI 3.1415926535897932
 int main(){
-	double r, n;
-	while (cin>>r>>n) {
-		double alpha = PI/n;
-		printf("%.3f\n", n*r*r*sin(alpha)*cos(alpha));
-	}
+    double r, n;
+    while (cin>>r>>n) {
+        double alpha = PI/n;
+        printf("%.3f\n", n*r*r*sin(alpha)*cos(alpha));
+    }
 }

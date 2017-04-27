@@ -7,7 +7,7 @@
   Email: arash.shakery@gmail.com
   Language: C
 */
-const double pi=3.141592653589793; 
+const double pi=3.141592653589793;
 void swap(double* x,double* y){
      *x+=*y;
      *y=*x-*y;
@@ -16,7 +16,7 @@ void swap(double* x,double* y){
 int main(){
  double x1,y1,x2,y2,x3,y3,x,y;
  double x21,x23,y21,y23,m,n,r;
- 
+
  while (scanf("%lf%lf%lf%lf%lf%lf",&x1,&y1,&x2,&y2,&x3,&y3)!=-1){
     while((x2==x3) || (x2==x1)){
       swap(&x1,&x2);swap(&y1,&y2);

@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 572
   Name: Oil Deposits
   Author: Arash Shakery

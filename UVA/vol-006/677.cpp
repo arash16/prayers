@@ -7,37 +7,37 @@ list<int> adj[20];
 int path[20], l, n, x;
 bool inside[20], somePrinted;
 void dfs(int u, int d) {
-	if (d == l) {
-		printf("(1");
-		for (int i=0; i<l; i++)
-			printf(",%d", path[i]+1);
-		puts(")"); somePrinted = 1;
-		return;
-	}
-	inside[u] = 1;
-	for (int v: adj[u])
-		if (!inside[v]) {
-			path[d] = v;
-			dfs(v, d+1);
-		}
-	inside[u] = 0;
+    if (d == l) {
+        printf("(1");
+        for (int i=0; i<l; i++)
+            printf(",%d", path[i]+1);
+        puts(")"); somePrinted = 1;
+        return;
+    }
+    inside[u] = 1;
+    for (int v: adj[u])
+        if (!inside[v]) {
+            path[d] = v;
+            dfs(v, d+1);
+        }
+    inside[u] = 0;
 }
 
 int main(){
-	while (scanf("%d%d", &n, &l)==2) {
-		for (int i=0; i<n; i++) {
-			adj[i].clear();
-			for (int j=0; j<n; j++) {
-				scanf("%d", &x);
-				if (x) adj[i].push_back(j);
-			}
-		}
+    while (scanf("%d%d", &n, &l)==2) {
+        for (int i=0; i<n; i++) {
+            adj[i].clear();
+            for (int j=0; j<n; j++) {
+                scanf("%d", &x);
+                if (x) adj[i].push_back(j);
+            }
+        }
 
-		somePrinted = 0; dfs(0, 0);
-		if (!somePrinted)
-			printf("no walk of length %d\n", l);
+        somePrinted = 0; dfs(0, 0);
+        if (!somePrinted)
+            printf("no walk of length %d\n", l);
 
-		if (scanf("%d", &n)==1 && n==-9999)
-			putchar('\n');
-	}
+        if (scanf("%d", &n)==1 && n==-9999)
+            putchar('\n');
+    }
 }

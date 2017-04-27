@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 10405
   Name: Longest Common Subsequence
   Author: Arash Shakery
@@ -35,7 +35,7 @@ int main()
                  c[i][j]=c[i-1][j-1]+1;
                else
                  c[i][j]=max(c[i-1][j],c[i][j-1]);
-                 
+
            cout<<c[len1][len2]<<endl;
      }
   return 0;

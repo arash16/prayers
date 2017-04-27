@@ -14,7 +14,7 @@ int main()
  int i,max;
  char c;
  char letters[58];
- 
+
  memset(letters,0,sizeof(letters));
  max=0;
  while ((c=getchar())!=-1)

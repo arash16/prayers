@@ -9,12 +9,12 @@ class Main {
         Scanner in = new Scanner(System.in);
         BigInteger two = BigInteger.valueOf(2);
         while (in.hasNext()) {
-        	BigInteger n = in.nextBigInteger();
-        	
-        	if (n.signum()==0)
-        		System.out.println(1);
-        	else
-        		System.out.println(n.multiply(n.subtract(BigInteger.ONE)).add(two));
+            BigInteger n = in.nextBigInteger();
+
+            if (n.signum()==0)
+                System.out.println(1);
+            else
+                System.out.println(n.multiply(n.subtract(BigInteger.ONE)).add(two));
         }
     }
 }

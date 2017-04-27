@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 490
   Name: Rotating Sentences
   Author: Arash Shakery

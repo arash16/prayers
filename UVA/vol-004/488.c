@@ -10,7 +10,7 @@
 
 int main(){
  int fi=0,a,f,i,j,k,n;
- 
+
  scanf("%d",&n);
  while (n--){
     if(scanf("%d%d",&f,&a)==-1)break;

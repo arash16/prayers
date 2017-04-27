@@ -34,7 +34,7 @@ int main()
      if(col[j]%2==1)
        if(!x)x=j;
        else goto cor;
-       
+
    if(!x && !y)
      printf("OK\n");
    else

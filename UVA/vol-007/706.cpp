@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 706
   Name: LC-Display
   Author: Arash Shakery

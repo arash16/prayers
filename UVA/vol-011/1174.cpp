@@ -8,58 +8,58 @@ using namespace std;
 
 short gid[2017];
 short find(short u) {
-	return gid[u]==u ? u : gid[u]=find(gid[u]);
+    return gid[u]==u ? u : gid[u]=find(gid[u]);
 }
 void join(short u, short v) {
-	gid[find(u)] = find(v);
+    gid[find(u)] = find(v);
 }
 
 short idcnt;
 unordered_map<string, short> ids;
 short getId(const char s[]) {
-	auto it = ids.find(s);
-	if (it != ids.end())
-		return it->second;
-	return ids[s] = idcnt++;
+    auto it = ids.find(s);
+    if (it != ids.end())
+        return it->second;
+    return ids[s] = idcnt++;
 }
 
 struct Edge {
-	int w;
-	short u, v;
-	Edge(short u, short v, int w):u(u),v(v),w(w){}
-	bool operator < (const Edge &e) const {
-		return w > e.w;
-	}
+    int w;
+    short u, v;
+    Edge(short u, short v, int w):u(u),v(v),w(w){}
+    bool operator < (const Edge &e) const {
+        return w > e.w;
+    }
 };
 
 
 int main(){
-	int T, n, m, w;
-	scanf("%d", &T);
-	char s1[100], s2[100];
-	while (T--) {
-		scanf("%d%d", &n, &m);
+    int T, n, m, w;
+    scanf("%d", &T);
+    char s1[100], s2[100];
+    while (T--) {
+        scanf("%d%d", &n, &m);
 
-		ids.clear(); idcnt = 0;
-		for (int i=0; i<n; ++i)
-			gid[i] = i;
+        ids.clear(); idcnt = 0;
+        for (int i=0; i<n; ++i)
+            gid[i] = i;
 
-		priority_queue<Edge> q;
-		for (int i=0; i<m; i++) {
-			scanf("%s%s%d", s1, s2, &w);
-			q.push(Edge(getId(s1), getId(s2), w));
-		}
+        priority_queue<Edge> q;
+        for (int i=0; i<m; i++) {
+            scanf("%s%s%d", s1, s2, &w);
+            q.push(Edge(getId(s1), getId(s2), w));
+        }
 
-		int sum = 0;
-		for (int i=1; i<n;) {
-			Edge e = q.top(); q.pop();
-			if (find(e.u) != find(e.v)) {
-				join(e.u, e.v);
-				sum += e.w;
-				++i;
-			}
-		}
-		printf("%d\n", sum);
-		if (T) putchar('\n');
-	}
+        int sum = 0;
+        for (int i=1; i<n;) {
+            Edge e = q.top(); q.pop();
+            if (find(e.u) != find(e.v)) {
+                join(e.u, e.v);
+                sum += e.w;
+                ++i;
+            }
+        }
+        printf("%d\n", sum);
+        if (T) putchar('\n');
+    }
 }

@@ -35,8 +35,8 @@ int main()
        else t=-1;
        if(t>0)printf("%10d%10d    Good Choice\n\n",x,y);
        else printf("%10d%10d    Bad Choice\n\n",x,y);
-     
+
      }
-     
+
      return 0;
 }

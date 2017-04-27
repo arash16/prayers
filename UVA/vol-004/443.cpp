@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 443
   Name: Humble Numbers
   Author: Arash Shakery
@@ -35,7 +35,7 @@ int main()
       for(k=0;k<4;k++)
         if((t=humble[j]*h[k])>humble[i-1] && t<humble[i])humble[i]=t;
   }
-  
+
   while(cin>>n && n){
     printf("The ");pnum(n);printf(" humble number is %d.\n",humble[n]);
   }

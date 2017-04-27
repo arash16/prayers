@@ -5,18 +5,18 @@ using namespace std;
 #define MAXN 60
 long long int mr[MAXN], tr[MAXN];
 int main(){
-	long long int f=1, m=0;
-	long long int f2, m2, n;
+    long long int f=1, m=0;
+    long long int f2, m2, n;
 
-	for (int i=0; i<MAXN; i++) {
-		mr[i] = mr[i-1]+m;
-		tr[i] = tr[i-1]+f+m;
-		f2 = m;
-		m2 = f + m;
-		f = f2;
-		m = m2;
-	}
+    for (int i=0; i<MAXN; i++) {
+        mr[i] = mr[i-1]+m;
+        tr[i] = tr[i-1]+f+m;
+        f2 = m;
+        m2 = f + m;
+        f = f2;
+        m = m2;
+    }
 
-	while(cin>>n && n>-1)
-		printf("%lld %lld\n", mr[n], tr[n]);
+    while(cin>>n && n>-1)
+        printf("%lld %lld\n", mr[n], tr[n]);
 }

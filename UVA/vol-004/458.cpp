@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-	char ch;
-	while((ch=getchar())!=EOF)
-		if (ch=='\n') cout<<endl;
-		else cout<<char(ch-7);
+    char ch;
+    while((ch=getchar())!=EOF)
+        if (ch=='\n') cout<<endl;
+        else cout<<char(ch-7);
 }

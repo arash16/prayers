@@ -20,7 +20,7 @@ int main(){
  r['M']='M';r['O']='O';  r['S']='2';r['T']='T';  r['U']='U';r['V']='V';
  r['W']='W';r['X']='X';  r['Y']='Y';r['Z']='5';  r['1']='1';r['2']='S';
  r['3']='E';r['5']='Z';  r['8']='8';
- 
+
  while (gets(line)){
     len=strlen(line);
     pal=rev=1;

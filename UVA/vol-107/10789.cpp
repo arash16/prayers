@@ -23,27 +23,27 @@ void sieve()
 
 
 int main(){
-	sieve();
-	char line[3000];
-	int cc[128];
-	int T, f;
-	cin>>T;
-	for(int cse=1; cse<=T; cse++) {
-		cin>>line;
-		for (int i=0; i<26; i++)
-			cc['a'+i] = cc['A'+i] = cc['0'+i] = 0;
-		
-		for (int i=0; line[i]; i++)
-			cc[line[i]]++;
-		
-		bool empty = true;
-		printf("Case %d: ", cse);
-		for (int i='0'; i<='z'; i++)
-			if ((f = cc[i])>1)
-				if (f==2 || (f&1 && gP(f))) {
-					cout << (char)i;
-					empty = false;
-				}
-		cout << (empty ? "empty\n" : "\n");
-	}
+    sieve();
+    char line[3000];
+    int cc[128];
+    int T, f;
+    cin>>T;
+    for(int cse=1; cse<=T; cse++) {
+        cin>>line;
+        for (int i=0; i<26; i++)
+            cc['a'+i] = cc['A'+i] = cc['0'+i] = 0;
+
+        for (int i=0; line[i]; i++)
+            cc[line[i]]++;
+
+        bool empty = true;
+        printf("Case %d: ", cse);
+        for (int i='0'; i<='z'; i++)
+            if ((f = cc[i])>1)
+                if (f==2 || (f&1 && gP(f))) {
+                    cout << (char)i;
+                    empty = false;
+                }
+        cout << (empty ? "empty\n" : "\n");
+    }
 }

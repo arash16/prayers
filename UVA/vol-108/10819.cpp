@@ -3,41 +3,41 @@
 using namespace std;
 
 int cse=1, p[101], f[101], m,
-	memoid[101][12001],
-	memo[101][12001];
+    memoid[101][12001],
+    memo[101][12001];
 
 int ks(int ind, int spent) {
-	if (spent>m+200) return -100;
-	if (spent>=m) {
-		if (spent <= 2000) {
-			if (spent<=1800)
-				return spent>m ? -100 : 0;
-		}
-		else if (spent == m+200)
-			return 0;
-	}
-	if (ind < 0) 
-		return spent>m && spent<=2000 ? -100 : 0;
+    if (spent>m+200) return -100;
+    if (spent>=m) {
+        if (spent <= 2000) {
+            if (spent<=1800)
+                return spent>m ? -100 : 0;
+        }
+        else if (spent == m+200)
+            return 0;
+    }
+    if (ind < 0)
+        return spent>m && spent<=2000 ? -100 : 0;
 
-	if (memoid[ind][spent] == cse)
-		return memo[ind][spent];
-	
-	int res = max(
-		ks(ind-1, spent), 
-		ks(ind-1, spent + p[ind]) + f[ind]
-	);
+    if (memoid[ind][spent] == cse)
+        return memo[ind][spent];
 
-	memoid[ind][spent] = cse;
-	return memo[ind][spent] = res;
+    int res = max(
+        ks(ind-1, spent),
+        ks(ind-1, spent + p[ind]) + f[ind]
+    );
+
+    memoid[ind][spent] = cse;
+    return memo[ind][spent] = res;
 }
 
 int main() {
-	int n;
-	while (scanf("%d%d", &m, &n)==2) {
-		for (int i=0; i<n; i++)
-			scanf("%d%d", p+i, f+i);
+    int n;
+    while (scanf("%d%d", &m, &n)==2) {
+        for (int i=0; i<n; i++)
+            scanf("%d%d", p+i, f+i);
 
-		printf("%d\n", ks(n-1, 0));
-		cse++;
-	}
+        printf("%d\n", ks(n-1, 0));
+        cse++;
+    }
 }

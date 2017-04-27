@@ -75,7 +75,7 @@ int main()
       }
       while(reg[p1]>999)
         reg[p1]-=1000;
-      
+
       eip++;
     }
     printf("%d\n",result);

@@ -30,39 +30,39 @@ double circle3pts(double x[], double y[], double r[]) {
 }
 
 char sgn(double x) {
-	return x<0 ? '-' : '+';
+    return x<0 ? '-' : '+';
 }
 
 void printXY2(char xy, double offset) {
-	double aof = offset < 0 ? -offset : offset;
-	if (aof < EPS)
-		cout << xy << "^2";
-	else
-		printf("(%c %c %.3f)^2", xy, sgn(-offset), aof);
+    double aof = offset < 0 ? -offset : offset;
+    if (aof < EPS)
+        cout << xy << "^2";
+    else
+        printf("(%c %c %.3f)^2", xy, sgn(-offset), aof);
 }
 
 void printXY(double a, char xy) {
-	double aof = a < 0 ? -a : a;
-	if (aof > EPS)
-		printf(" %c %.3f%c", sgn(a), aof, xy);
+    double aof = a < 0 ? -a : a;
+    if (aof > EPS)
+        printf(" %c %.3f%c", sgn(a), aof, xy);
 }
 
 int main(){
-	double x[3], y[3], c[3], r, cx, dy, e;
-	while (scanf("%lf %lf %lf %lf %lf %lf", x,y, x+1,y+1, x+2,y+2)==6) {
-		r = circle3pts(x, y, c);
-		
-		printXY2('x', c[0]);
-		cout << " + ";
-		printXY2('y', c[1]);
-		printf(" = %.3f^2\n", r);
-		
-		cx = -2*c[0];
-		dy = -2*c[1];
-		e = r*r - c[0]*c[0] - c[1]*c[1];
-		cout << "x^2 + y^2";
-		printXY(cx, 'x');
-		printXY(dy, 'y');
-		printf(" %c %.3f = 0\n\n", sgn(-e), e<0?-e:e);
-	}
+    double x[3], y[3], c[3], r, cx, dy, e;
+    while (scanf("%lf %lf %lf %lf %lf %lf", x,y, x+1,y+1, x+2,y+2)==6) {
+        r = circle3pts(x, y, c);
+
+        printXY2('x', c[0]);
+        cout << " + ";
+        printXY2('y', c[1]);
+        printf(" = %.3f^2\n", r);
+
+        cx = -2*c[0];
+        dy = -2*c[1];
+        e = r*r - c[0]*c[0] - c[1]*c[1];
+        cout << "x^2 + y^2";
+        printXY(cx, 'x');
+        printXY(dy, 'y');
+        printf(" %c %.3f = 0\n\n", sgn(-e), e<0?-e:e);
+    }
 }

@@ -10,40 +10,40 @@ unsigned int prime[N / 64];
 void sieve() {
     memset(prime, -1, sizeof(prime));
     unsigned int i, i2, sqrtN = (unsigned int)sqrt((double)N) + 1;
-    for(i = 3; i<sqrtN; i+=2) 
-    	if(gP(i)) {
-		    i2 = i + i;
-		    for(unsigned int j = i*i; j<N; j+= i2) 
-		    	prime[j>>6] &= ~(1<<((j>>1)&31));
-		}
+    for(i = 3; i<sqrtN; i+=2)
+        if(gP(i)) {
+            i2 = i + i;
+            for(unsigned int j = i*i; j<N; j+= i2)
+                prime[j>>6] &= ~(1<<((j>>1)&31));
+        }
 }
 
 bool isPrime(int n) {
-	return n==2 || ((n&1) && gP(n));
+    return n==2 || ((n&1) && gP(n));
 }
 
 int rev(int n) {
-	int r = 0;
-	while (n) {
-		r = r*10 + n%10;
-		n /= 10;
-	}
-	return r;
+    int r = 0;
+    while (n) {
+        r = r*10 + n%10;
+        n /= 10;
+    }
+    return r;
 }
 
 
 int main() {
-	sieve();
-	int n;
-	while (cin>>n)
-		if (!isPrime(n))
-			printf("%d is not prime.\n", n);
-		
-		else {
-			int r = rev(n);
-			if(r==n || !isPrime(r))
-				printf("%d is prime.\n", n);
-		
-			else printf("%d is emirp.\n", n);
-		}
+    sieve();
+    int n;
+    while (cin>>n)
+        if (!isPrime(n))
+            printf("%d is not prime.\n", n);
+
+        else {
+            int r = rev(n);
+            if(r==n || !isPrime(r))
+                printf("%d is prime.\n", n);
+
+            else printf("%d is emirp.\n", n);
+        }
 }

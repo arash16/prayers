@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 294
   Name: Divisors
   Author: Arash Shakery
@@ -53,9 +53,9 @@ int main()
 {
      int n,t,max;
      unsigned long int i,l,u,m;
-     
+
      calcprimes();
-      
+
      cin>>n;
      while (n--)
      {

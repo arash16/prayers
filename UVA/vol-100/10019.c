@@ -27,13 +27,13 @@ int main(){
  scanf("%d",&n);
  while (n--){
     scanf("%d",&m);
-    
+
     b1=count1(m);
-    
+
     sprintf(buff+2,"%d",m);
     sscanf(buff,"%x",&b2);
     b2=count1(b2);
-    
+
     printf("%d %d\n",b1,b2);
  }
  return 0;

@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 446
   Name: Kibbles `n' Bits `n' Bits `n' Bits
   Author: Arash Shakery

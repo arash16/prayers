@@ -11,7 +11,7 @@
 int main(){
  char line[140],c;
  int i=0,n=0,j;
- 
+
  while (gets(line)){
    i=0;
    while(line[i]){

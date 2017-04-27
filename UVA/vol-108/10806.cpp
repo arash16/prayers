@@ -20,7 +20,7 @@ bool dijkstra( int n, int s, int t )
     for( int i = 0; i < n; i++ ) d[i] = Inf, par[i] = -1;
     d[s] = 0;
     par[s] = -n - 1;
-    while( 1 ) 
+    while( 1 )
     {
         int u = -1, bestD = Inf;
         for( int i = 0; i < n; i++ ) if( par[i] < 0 && d[i] < bestD )
@@ -30,12 +30,12 @@ bool dijkstra( int n, int s, int t )
         // relax edge (u,i) or (i,u) for all i;
         par[u] = -par[u] - 1;
         for( int i = 0; i < deg[u]; i++ )
-        {    
+        {
             int v = adj[u][i];
             if( par[v] >= 0 ) continue;
-            if( fnet[v][u] && d[v] > Pot(u,v) - cost[v][u] ) 
+            if( fnet[v][u] && d[v] > Pot(u,v) - cost[v][u] )
                 d[v] = Pot( u, v ) - cost[v][u], par[v] = -u-1;
-            if( fnet[u][v] < cap[u][v] && d[v] > Pot(u,v) + cost[u][v] ) 
+            if( fnet[u][v] < cap[u][v] && d[v] > Pot(u,v) + cost[u][v] )
                 d[v] = Pot(u,v) + cost[u][v], par[v] = -u - 1;
         }
     }
@@ -46,14 +46,14 @@ bool dijkstra( int n, int s, int t )
 
 int mcmf3( int n, int s, int t, int &fcost )
 {
-	int i,j;
+    int i,j;
     for(i=0;i<n;i++)deg[i]=pi[i]=0;
     for(i=0;i<n;i++)
-		for(j=0;j<n;j++)
-			fnet[i][j]=0;
+        for(j=0;j<n;j++)
+            fnet[i][j]=0;
 
     for(int i=0; i<n; i++)
-    for(int j=0; j<n; j++) 
+    for(int j=0; j<n; j++)
         if( cap[i][j] || cap[j][i] ) adj[i][deg[i]++] = j;
 
     int flow=fcost=0;
@@ -71,23 +71,23 @@ int mcmf3( int n, int s, int t, int &fcost )
 
 
 int main(){
-	int n,m,a,b,c,f,i,j;
-	while(scanf("%d",&n)==1 && n>0){
-		scanf("%d",&m);
-		for(i=0;i<m;i++){
-			scanf("%d%d%d",&a,&b,&c);
-			cap[a][b]=cap[b][a]=1;
-			cost[a][b]=cost[b][a]=c;
-		}
-		cap[0][1]=2;
-		if(mcmf3(n+1,0,n,f)>=2)
-			printf("%d\n",f);
-		else
-			printf("Back to jail\n");
+    int n,m,a,b,c,f,i,j;
+    while(scanf("%d",&n)==1 && n>0){
+        scanf("%d",&m);
+        for(i=0;i<m;i++){
+            scanf("%d%d%d",&a,&b,&c);
+            cap[a][b]=cap[b][a]=1;
+            cost[a][b]=cost[b][a]=c;
+        }
+        cap[0][1]=2;
+        if(mcmf3(n+1,0,n,f)>=2)
+            printf("%d\n",f);
+        else
+            printf("Back to jail\n");
 
 
-		for(i=0;i<=n;i++)
-			for(j=0;j<=n;j++)
-				cost[i][j]=cap[i][j]=0;
-	}
+        for(i=0;i<=n;i++)
+            for(j=0;j<=n;j++)
+                cost[i][j]=cap[i][j]=0;
+    }
 }

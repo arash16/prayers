@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 579
   Name: ClockHands
   Author: Arash Shakery

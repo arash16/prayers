@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 350
   Name: Pseudo-Random Numbers
   Author: Arash Shakery

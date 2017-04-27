@@ -31,7 +31,7 @@ int main()
 {
  int n,i,t,x,line,lastp,max;
  short c[101];
- 
+
  while (scanf("%d",&n)!=EOF)
  {
    if(n==0)break;
@@ -57,7 +57,7 @@ int main()
    line=0;
    printf("%3d! =",n);
    for(i=0;c[i];i++)
-   {     
+   {
      if(line==15)
      {
        printf("\n      ");

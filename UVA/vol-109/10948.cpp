@@ -18,33 +18,33 @@ void sieve() {
 
     int i, sqrtN = sqrt((double)MAXP) + 1;
     for (i = 3; i < sqrtN; i += 2 ) if(gP(i)) {
-    	primes[cnt++] = i;
+        primes[cnt++] = i;
         int i2 = i<<1;
-        for(int j = i * i; j < MAXP; j += i2) 
-        	prime[j>>6] &= ~(1<<((j>>1)&31));
+        for(int j = i * i; j < MAXP; j += i2)
+            prime[j>>6] &= ~(1<<((j>>1)&31));
     }
-    
+
     for (; i<MAXP; i+=2)
-    	if (gP(i))
-    		primes[cnt++] = i;
+        if (gP(i))
+            primes[cnt++] = i;
 }
 
 
 bool isPrime(int x) {
-	return x==2 || (x>2 && x&1 && (gP(x)));
+    return x==2 || (x>2 && x&1 && (gP(x)));
 }
 
 
 int main(){
-	sieve();
-	int n, i;
-	while (cin>>n && n) {
-		for (i=0; primes[i]*2 <= n; i++)
-			if (isPrime(n - primes[i]))
-				break;
-		
-		printf("%d:\n", n);
-		if (2*primes[i] > n) puts("NO WAY!");
-		else printf("%d+%d\n", primes[i], n-primes[i]);
-	}
+    sieve();
+    int n, i;
+    while (cin>>n && n) {
+        for (i=0; primes[i]*2 <= n; i++)
+            if (isPrime(n - primes[i]))
+                break;
+
+        printf("%d:\n", n);
+        if (2*primes[i] > n) puts("NO WAY!");
+        else printf("%d+%d\n", primes[i], n-primes[i]);
+    }
 }

@@ -13,12 +13,12 @@ int main()
 {
  int n,i,k,sum,avg;
  char h[51];
- 
+
  k=1;
  while (scanf("%d",&n)!=EOF)
  {
    if(n==0)break;
-   
+
    sum=0;
    for(i=1;i<=n;i++)
    {

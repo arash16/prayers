@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-	int T, h, m;
-	cin>>T;
-	while (T--) {
-		scanf("%d:%d", &h, &m);
+    int T, h, m;
+    cin>>T;
+    while (T--) {
+        scanf("%d:%d", &h, &m);
 
-		int t = 720 - (h%12)*60 - m;
-		h = t/60; m = t%60;
+        int t = 720 - (h%12)*60 - m;
+        h = t/60; m = t%60;
 
-		printf("%02d:%02d\n", h?h:12, m);
-	}
+        printf("%02d:%02d\n", h?h:12, m);
+    }
 }

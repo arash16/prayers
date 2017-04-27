@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 10205
   Name: Stack 'em Up
   Author: Arash Shakery
@@ -18,7 +18,7 @@ char suits[][9]={"Clubs","Diamonds","Hearts","Spades"};
 char nums[][6]={"2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace"};
 
 string name(int x){
-  
+
 }
 
 int main()

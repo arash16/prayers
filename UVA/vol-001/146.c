@@ -15,7 +15,7 @@ void swap(char* x,char* y){
 int main(){
  char line[60],c;
  int i,j,k,min,len;
- 
+
  while (gets(line)){
    if(line[0]=='#')break;
    len=strlen(line);

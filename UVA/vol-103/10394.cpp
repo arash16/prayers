@@ -23,14 +23,14 @@ bool isP(int x){ return gP(x); }
 
 int dp[100005];
 int main(){
-	sieve();
-	
-	int cnt = 0;
-	for (int i=3; cnt<100001; i+=2)
-		if (isP(i) && isP(i+2))
-			dp[cnt++] = i;
-	
-	int n;
-	while (cin>>n)
-		printf("(%d, %d)\n", dp[n-1], dp[n-1]+2);
+    sieve();
+
+    int cnt = 0;
+    for (int i=3; cnt<100001; i+=2)
+        if (isP(i) && isP(i+2))
+            dp[cnt++] = i;
+
+    int n;
+    while (cin>>n)
+        printf("(%d, %d)\n", dp[n-1], dp[n-1]+2);
 }

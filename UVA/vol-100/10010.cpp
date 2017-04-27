@@ -19,7 +19,7 @@ int main()
         cin.ignore(1);
       }
       cin>>k;cin.ignore(1);
-      
+
       while(k--){
         cin>>word;
         len=strlen(word);

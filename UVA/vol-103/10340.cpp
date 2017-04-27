@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 10340
   Name: All in All
   Author: Arash Shakery
@@ -26,7 +26,7 @@ int main()
                break;
              t:;
            }
-           
+
            if(i==slen)
              cout<<"Yes";
            else

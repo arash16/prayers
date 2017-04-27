@@ -22,18 +22,18 @@ void sieve()
 }
 
 bool isPrime(int x) {
-	return x==2 || (x%2==1 && gP(x));
+    return x==2 || (x%2==1 && gP(x));
 }
 
 int main() {
-	sieve();
-	
-	char word[100];
-	while(cin>>word) {
-		int x = 0;
-		for (int i=0; word[i]; i++)
-			x+=word[i]-(word[i]<='Z' ? 'A'-26 : 'a')+1;
-		
-		cout << "It is " << (isPrime(x) ? "" : "not ") << "a prime word.\n";
-	}
+    sieve();
+
+    char word[100];
+    while(cin>>word) {
+        int x = 0;
+        for (int i=0; word[i]; i++)
+            x+=word[i]-(word[i]<='Z' ? 'A'-26 : 'a')+1;
+
+        cout << "It is " << (isPrime(x) ? "" : "not ") << "a prime word.\n";
+    }
 }

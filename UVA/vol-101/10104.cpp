@@ -10,7 +10,7 @@ struct Triple {
 
 template<class Int>
 Int mod(Int x, Int y) {
-	return ((x%y)+y)%y;
+    return ((x%y)+y)%y;
 }
 
 template<class Int>
@@ -22,9 +22,9 @@ Triple<Int> egcd(Int a, Int b) {
 
 
 int main(){
-	long long int a, b;
-	while (cin>>a>>b) {
-		auto res = egcd(a, b);
-		printf("%lld %lld %lld\n", res.x, res.y, res.d);
-	}
+    long long int a, b;
+    while (cin>>a>>b) {
+        auto res = egcd(a, b);
+        printf("%lld %lld %lld\n", res.x, res.y, res.d);
+    }
 }

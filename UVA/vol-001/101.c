@@ -52,14 +52,14 @@ int main()
  int x1,x2,y1,y2,d1,d2,b1,b2;
  char c1[5],c2[5];
  char temp[25];
- 
+
 
  scanf("%d",&n);
- 
+
  memset(blocks,-1,sizeof(blocks));
  for(i=0;i<n;i++)
    blocks[i][0]=i;
- 
+
  while (scanf("%s%d%s%d",&c1,&b1,&c2,&b2)!=EOF)
  {
    srch(b1,&x1,&y1,&d1);

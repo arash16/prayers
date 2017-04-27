@@ -11,7 +11,7 @@
 int main(){
  int n,m,i,sum,g[1000],c;
  float avg;
- 
+
  scanf("%d",&m);
  while (m--){
     if(scanf("%d",&n)==-1)break;

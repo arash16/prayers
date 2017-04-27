@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 674
   Name: Coin Change
   Author: Arash Shakery
@@ -24,7 +24,7 @@ int recu(int c,int x){
     else
     for(i=0;i<=(int)(c/coin[x]);i++)
       k+=recu(c-coin[x]*i,x+1);
-    
+
     calc[c][x]=k;
     return k;
 }

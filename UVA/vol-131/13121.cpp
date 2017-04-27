@@ -20,13 +20,13 @@ Triple egcd(int a, int b) {
 
 int a[400], b[400];
 int nexte(int i, int j) {
-	if (b[i] == b[j]) return a[i]==a[j] ? 0 : INF;
-	if (b[i] < b[j]) swap(i, j);
+    if (b[i] == b[j]) return a[i]==a[j] ? 0 : INF;
+    if (b[i] < b[j]) swap(i, j);
 
-	int bij = b[i]-b[j],
-		aji = a[j]-a[i];
-	if (aji < 0) aji += 360*ceil(-aji / 360.0);
-	
+    int bij = b[i]-b[j],
+        aji = a[j]-a[i];
+    if (aji < 0) aji += 360*ceil(-aji / 360.0);
+
 
     Triple t = egcd(bij, 360);
     if (aji % t.d) return INF;
@@ -34,25 +34,25 @@ int nexte(int i, int j) {
     if (x < 0) x += 360;
     int mn = INF;
     for (int i=0; i<t.d; i++) {
-    	int tm = (x + i*360/t.d) % 360;
-    	if (tm>=0 && tm<mn) mn = tm;
-    	if (!mn) return mn;
-	}
-	return mn;
+        int tm = (x + i*360/t.d) % 360;
+        if (tm>=0 && tm<mn) mn = tm;
+        if (!mn) return mn;
+    }
+    return mn;
 }
 
 int main(){
-	int n;
-	while (scanf("%d", &n)==1) {
-		int mn = INF;
-		for (int i=0; i<n; i++) {
-			scanf("%*d%d%d", a+i, b+i);
-			a[i] = (a[i]%360+360)%360;
-			if (mn) for (int j=0; j<i; j++)
-				mn = min(mn, nexte(j, i));
-		}
+    int n;
+    while (scanf("%d", &n)==1) {
+        int mn = INF;
+        for (int i=0; i<n; i++) {
+            scanf("%*d%d%d", a+i, b+i);
+            a[i] = (a[i]%360+360)%360;
+            if (mn) for (int j=0; j<i; j++)
+                mn = min(mn, nexte(j, i));
+        }
 
-		if (mn == INF) puts("GIANIK IS NEVER ECLIPSED");
-		else printf("%d\n", mn);
-	}
+        if (mn == INF) puts("GIANIK IS NEVER ECLIPSED");
+        else printf("%d\n", mn);
+    }
 }

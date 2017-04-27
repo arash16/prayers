@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 344
   Name: Roman Digititis
   Author: Arash Shakery
@@ -16,7 +16,7 @@ int main()
 {
    int c[5][101],i,j,t,n;
    memset(c,0,sizeof(c));
-   
+
    for(i=0;i<101;i++)
      for(j=0;j<5;j++)
        c[j][i]=0;
@@ -30,7 +30,7 @@ int main()
           if(t==4 || t==9) c[0+j][i]+=1;
           if(t>3 && t<9)   c[1+j][i]+=1;
           if(t==9)         c[2+j][i]+=1;
-          
+
           t=i/10;
         }
         if(i==100)c[4][i]=+1;

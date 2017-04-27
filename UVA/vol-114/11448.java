@@ -10,7 +10,7 @@ class Main {
         PrintWriter pw = new PrintWriter(System.out);
         int T = in.nextInt();
         while (T-- != 0)
-        	pw.println(in.nextBigInteger().subtract(in.nextBigInteger()));
+            pw.println(in.nextBigInteger().subtract(in.nextBigInteger()));
         pw.flush();
     }
 }

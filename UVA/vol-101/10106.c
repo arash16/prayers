@@ -20,7 +20,7 @@ int main()
 {
   int r[510];
   int i,j,l1,l2;
-  
+
   l1=readnum(m1);  l2=readnum(m2);
   while(l1 && l2)
   {
@@ -28,7 +28,7 @@ int main()
     for(i=0;i<l1;i++)
       for(j=0;j<l2;j++)
         r[j+i]+=(m1[i]-'0')*(m2[j]-'0');
-        
+
     for(i=l1+l2;i>0;i--)
     {
       r[i-1]+=r[i]/10;
@@ -39,9 +39,9 @@ int main()
     for(;i<l1+l2-1;i++)
       printf("%d",r[i]);
       printf("\n");
-    
+
     l1=readnum(m1);  l2=readnum(m2);
   }
-  
+
   return 0;
 }

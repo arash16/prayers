@@ -1,6 +1,6 @@
 /*
   >>> ACM PROBLEM <<<
-  
+
   ID: 568
   Name: Just the Facts
   Author: Arash Shakery
@@ -23,7 +23,7 @@ int count5(int x){
 
 int main()
 {
-     int n,c5,c2,t,mult;     
+     int n,c5,c2,t,mult;
      while (cin>>n)
      {
          mult=1;

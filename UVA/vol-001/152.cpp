@@ -7,28 +7,28 @@ using namespace std;
 
 int n, px[MAXN], py[MAXN], pz[MAXN], dd[MAXN], rr[10];
 int dist2(int i, int j) {
-	int xx=px[i]-px[j],
-		yy=py[i]-py[j],
-		zz=pz[i]-pz[j];
+    int xx=px[i]-px[j],
+        yy=py[i]-py[j],
+        zz=pz[i]-pz[j];
 
-	return xx*xx + yy*yy + zz*zz;
+    return xx*xx + yy*yy + zz*zz;
 }
 
 int main(){
-	for (n=0; cin>>px[n]>>py[n]>>pz[n] && (px[n]||py[n]||pz[n]); n++) {
-		dd[n] = 1<<30;
-		for (int i=0; i<n; i++) {
-			int d = dist2(i, n);
-			if (d < dd[n]) dd[n]=d;
-			if (d < dd[i]) dd[i]=d;
-		}
-	}
+    for (n=0; cin>>px[n]>>py[n]>>pz[n] && (px[n]||py[n]||pz[n]); n++) {
+        dd[n] = 1<<30;
+        for (int i=0; i<n; i++) {
+            int d = dist2(i, n);
+            if (d < dd[n]) dd[n]=d;
+            if (d < dd[i]) dd[i]=d;
+        }
+    }
 
-	for (int i=0; i<n; i++) 
-		if (dd[i] < 100)
-			rr[(int)(sqrt((float)dd[i]))]++;
+    for (int i=0; i<n; i++)
+        if (dd[i] < 100)
+            rr[(int)(sqrt((float)dd[i]))]++;
 
-	for (int i=0; i<10; i++)
-		printf("%4d", rr[i]);
-	putchar('\n');
+    for (int i=0; i<10; i++)
+        printf("%4d", rr[i]);
+    putchar('\n');
 }
