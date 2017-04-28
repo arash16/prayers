@@ -1,6 +1,6 @@
 # Prays
 
-> Competitive programming solutions
+> ACM (Competitive Programming) solutions
 
 [uHunt statistics](http://uhunt.felix-halim.net/id/1750)
 
