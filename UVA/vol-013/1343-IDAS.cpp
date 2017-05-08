@@ -29,7 +29,7 @@ int H(char X[]) {
 
 
 int path[20], maxd;
-bool IDA (char X[], int d) {
+bool IDAS (char X[], int d) {
     int hv = H(X); // minimum remaining moves
     if (!hv) {
         if (!d) cout << "No moves needed\n";
@@ -49,7 +49,7 @@ bool IDA (char X[], int d) {
         path[d] = k;
         memcpy(Y, X, 24);
         moveForward(Y, k);
-        if (IDA(Y, d+1))
+        if (IDAS(Y, d+1))
             return 1;
     }
     return 0;
@@ -68,6 +68,6 @@ int main() {
 
         bool solved = 0;
         for (maxd=1; !solved; ++maxd)
-            solved |= IDA(X, 0);
+            solved |= IDAS(X, 0);
     }
 }
