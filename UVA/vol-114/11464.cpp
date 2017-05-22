@@ -15,7 +15,11 @@ int best;
 void backtrack(int i, int j, int step) {
     if (step >= best) return;
     if (i && j && M[i-1][j-1]) return;
-    if (j == n) ++i, j=0;
+    if (j>1 && M[i][j-2] && X[i+1][j-2]) return;
+    if (j == n) {
+        if (j && M[i][j-1] && X[i+1][j-1]) return;
+        ++i, j=0;
+    }
 
     if (i < n) {
         backtrack(i, j+1, step);
@@ -27,9 +31,6 @@ void backtrack(int i, int j, int step) {
         return;
     }
 
-    for (int k=0; k<n; ++k)
-        if (M[n-1][k])
-            return;
     best = step;
 }
 
@@ -41,12 +42,14 @@ int main() {
     cin >> T;
     for (int cse=1; T-- && cin >> n; ++cse) {
         memset(M, 0, sizeof(M));
-        for (int i=0; i<n; ++i)
+        for (int i=0; i<n; ++i) {
             for (int j=0; j<n; ++j) {
                 cin >> X[i][j];
                 if (X[i][j])
                     click(i, j);
             }
+            X[n][i] = 1;
+        }
 
         best = 616;
         backtrack(0, 0, 0);
