@@ -54,7 +54,7 @@ int Mno[23];
 bool visited[23];
 int H() {
     int sum = 0;
-    for (int i=1; i<sz; ++i)
+    for (int i=0; i<sz; ++i)
         if (!visited[i])
             sum += Mno[i];
     return sum;
