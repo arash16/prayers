@@ -66,6 +66,8 @@ int main() {
                 for (int w: adj[v])
                     if (mat[u][w] == cse) {
                         ++result;
+                        ++used[v][w];
+                        ++used[u][w];
                         if (++cnt >= 2)
                             break;
                     }
