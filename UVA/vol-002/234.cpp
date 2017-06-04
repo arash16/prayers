@@ -15,7 +15,7 @@ int M[5], P[17], bestM[5], bestP[17];
 void bt(int idx, int sum, int ia) {
     int k;
     for (k=0; k<5 && M[k]==bestM[k]; ++k);
-    if (k<5 && M[k]>=bestM[k]) return;
+    if (k>=5 || M[k]>=bestM[k]) return;
 
     if (idx==n) {
         memcpy(bestM, M, sizeof(M));
