@@ -2,7 +2,7 @@
 
 > ACM (Competitive Programming) solutions
 
-[uHunt statistics](http://uhunt.felix-halim.net/id/1750)
+[uHunt statistics](https://uhunt.onlinejudge.org/id/1750)
 
 ### Other Repositories
 
