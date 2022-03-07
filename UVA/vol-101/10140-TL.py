@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10140
+##  Name: Prime Distance
+##  Problem: https://onlinejudge.org/external/101/10140.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 from math import sqrt
 

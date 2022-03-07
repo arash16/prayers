@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10114
+  Name: Loansome Car Buyer
+  Problem: https://onlinejudge.org/external/101/10114.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

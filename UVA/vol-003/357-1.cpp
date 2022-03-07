@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 357
+  Name: Let Me Count The Ways
+  Problem: https://onlinejudge.org/external/3/357.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <iostream>
 using namespace std;

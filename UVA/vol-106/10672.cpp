@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10672
+  Name: Marbles on a tree
+  Problem: https://onlinejudge.org/external/106/10672.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <iostream>
 #include <list>

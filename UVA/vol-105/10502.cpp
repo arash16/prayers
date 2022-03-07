@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10502
+  Name: Counting Rectangles
+  Problem: https://onlinejudge.org/external/105/10502.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 // O(n^3)

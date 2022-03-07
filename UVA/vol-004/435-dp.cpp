@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 435
+  Name: Block Voting
+  Problem: https://onlinejudge.org/external/4/435.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

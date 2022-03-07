@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10430
+  Name: Dear GOD
+  Problem: https://onlinejudge.org/external/104/10430.pdf
+  Language: Java
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;

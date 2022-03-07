@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 860
+  Name: Entropy Text Analyzer
+  Problem: https://onlinejudge.org/external/8/860.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <math.h>
 #include <stdio.h>
 #include <cstring>

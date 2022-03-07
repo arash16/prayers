@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 12485
+  Name: Perfect Choir
+  Problem: https://onlinejudge.org/external/124/12485.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

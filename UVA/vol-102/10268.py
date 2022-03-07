@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10268
+##  Name: 498-bis
+##  Problem: https://onlinejudge.org/external/102/10268.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 from itertools import zip_longest
 

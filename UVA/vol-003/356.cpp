@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 356
+  Name: Square Pegs And Round Holes
+  Problem: https://onlinejudge.org/external/3/356.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10842
+  Name: Traffic Flow
+  Problem: https://onlinejudge.org/external/108/10842.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <math.h>
 #include <stdio.h>
 #include <cstring>

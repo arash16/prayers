@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11550
+  Name: Demanding Dilemma
+  Problem: https://onlinejudge.org/external/115/11550.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 
 int mat[30][30], sum[30], vv[30][2];

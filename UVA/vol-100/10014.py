@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10014
+##  Name: Simple calculations
+##  Problem: https://onlinejudge.org/external/100/10014.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 inp = stdin.read().split()
 

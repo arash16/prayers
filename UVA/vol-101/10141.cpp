@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10141
+  Name: Request for Proposal
+  Problem: https://onlinejudge.org/external/101/10141.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <iostream>
 using namespace std;

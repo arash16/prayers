@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 455
+  Name: Periodic Strings
+  Problem: https://onlinejudge.org/external/4/455.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <cstring>
 #include <iostream>

@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10139
+  Name: Factovisors
+  Problem: https://onlinejudge.org/external/101/10139.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <math.h>
 #include <stdio.h>
 #include <iostream>

@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10006
+  Name: Carmichael Numbers
+  Problem: https://onlinejudge.org/external/100/10006.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <math.h>
 #include <stdio.h>
 #include <cstring>

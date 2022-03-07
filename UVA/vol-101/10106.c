@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10106
   Name: Product
+  Problem: https://onlinejudge.org/external/101/10106.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 char m1[260],m2[260];
 int readnum(char n[])
 {

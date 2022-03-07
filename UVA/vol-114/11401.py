@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 11401
+##  Name: Triangle Counting
+##  Problem: https://onlinejudge.org/external/114/11401.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 
 def calc(x):

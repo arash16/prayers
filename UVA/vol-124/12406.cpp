@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 12406
+  Name: Help Dexter
+  Problem: https://onlinejudge.org/external/124/12406.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 #define INF 1152921504606846976LL
 using namespace std;

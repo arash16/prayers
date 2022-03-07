@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11262
+  Name: Weird Fence
+  Problem: https://onlinejudge.org/external/112/11262.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 #define INF 2147483647
 using namespace std;

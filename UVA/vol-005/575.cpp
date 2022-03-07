@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 575
+  Name: Skew Binary
+  Problem: https://onlinejudge.org/external/5/575.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <iostream>
 #include <cstring>

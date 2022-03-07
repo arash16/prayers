@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11701
+  Name: Cantor
+  Problem: https://onlinejudge.org/external/117/11701.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 #define EPS 1e-12
 using namespace std;

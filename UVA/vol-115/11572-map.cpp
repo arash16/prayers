@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11572
+  Name: Unique Snowflakes
+  Problem: https://onlinejudge.org/external/115/11572.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <unordered_map>
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11588
+  Name: Image Coding
+  Problem: https://onlinejudge.org/external/115/11588.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 
 void skipline() { while(getchar()!='\n'); }

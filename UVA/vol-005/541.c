@@ -1,13 +1,14 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 541
   Name: Error Correction
+  Problem: https://onlinejudge.org/external/5/541.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
-
 
 int main()
 {

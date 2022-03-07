@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10880
+  Name: Colin and Ryan
+  Problem: https://onlinejudge.org/external/108/10880.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <math.h>
 #include <stdio.h>
 

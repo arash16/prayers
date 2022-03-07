@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10264
+  Name: The Most Potent Corner
+  Problem: https://onlinejudge.org/external/102/10264.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <cstring>
 #include <stdio.h>
 

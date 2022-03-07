@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 884
+##  Name: Factorial Factors
+##  Problem: https://onlinejudge.org/external/8/884.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 import math
 def factors(n):
     sq = math.sqrt(n)

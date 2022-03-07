@@ -1,11 +1,13 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 151
   Name: Power Crisis
+  Problem: https://onlinejudge.org/external/1/151.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 char isright(int n,int m)

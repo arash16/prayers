@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11821
+  Name: High-Precision Number
+  Problem: https://onlinejudge.org/external/118/11821.pdf
+  Language: Java
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;

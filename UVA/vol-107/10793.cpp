@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10793
+  Name: The Orc Attack
+  Problem: https://onlinejudge.org/external/107/10793.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 #define INF 67108864
 using namespace std;

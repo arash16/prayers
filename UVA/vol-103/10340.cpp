@@ -1,11 +1,13 @@
 /*
-  >>> ACM PROBLEM <<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10340
   Name: All in All
+  Problem: https://onlinejudge.org/external/103/10340.pdf
+  Language: C++
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 #include <iostream>

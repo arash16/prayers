@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10642
+##  Name: Can You Solve It?
+##  Problem: https://onlinejudge.org/external/106/10642.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 
 def num(x, y):

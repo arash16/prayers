@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10519
+  Name: !! Really Strange !!
+  Problem: https://onlinejudge.org/external/105/10519.pdf
+  Language: Java
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;

@@ -1,11 +1,13 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10370
-  Name: Ugly Numbers
+  Name: Above Average
+  Problem: https://onlinejudge.org/external/103/10370.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 int main(){

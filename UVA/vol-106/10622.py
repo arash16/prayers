@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10622
+##  Name: Perfect P-th Powers
+##  Problem: https://onlinejudge.org/external/106/10622.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 
 def pp(n):

@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10101
+##  Name: Bangla Numbers
+##  Problem: https://onlinejudge.org/external/101/10101.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 
 lens = [10, 100, 100, 100]

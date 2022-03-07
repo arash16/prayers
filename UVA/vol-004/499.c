@@ -1,13 +1,14 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 499
   Name: What's The Frequency, Kenneth?
+  Problem: https://onlinejudge.org/external/4/499.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
-
 
 int main()
 {

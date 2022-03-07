@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 700
+  Name: Date Bugs
+  Problem: https://onlinejudge.org/external/7/700.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 
 int R[30], A[30], S[30], n;

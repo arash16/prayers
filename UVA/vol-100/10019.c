@@ -1,13 +1,14 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10019
   Name: Funny Encryption Method
+  Problem: https://onlinejudge.org/external/100/10019.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
-
 
 int count1(int x){
    int i,b=0,k;

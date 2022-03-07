@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 11728
+##  Name: Alternate Task
+##  Problem: https://onlinejudge.org/external/117/11728.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 
 res = [-1] * 1001

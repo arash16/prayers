@@ -1,11 +1,13 @@
 /*
-  >>> ACM PROBLEM <<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 694
   Name: The Collatz Sequence
+  Problem: https://onlinejudge.org/external/6/694.pdf
+  Language: C++
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C++
 */
 
 #include <iostream>

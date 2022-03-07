@@ -1,11 +1,13 @@
 /*
-  >>> ACM PROBLEM <<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10205
   Name: Stack 'em Up
+  Problem: https://onlinejudge.org/external/102/10205.pdf
+  Language: C++
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C++
 */
 
 #include <iostream>

@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 146
   Name: ID Codes
+  Problem: https://onlinejudge.org/external/1/146.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 #include <string.h>
 #include <stdio.h>
 void swap(char* x,char* y){

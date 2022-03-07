@@ -1,11 +1,13 @@
 /*
-  >>> ACM PROBLEM <<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 706
   Name: LC-Display
+  Problem: https://onlinejudge.org/external/7/706.pdf
+  Language: C++
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C++
 */
 
 #include <iostream>

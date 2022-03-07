@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10083
+  Name: Division
+  Problem: https://onlinejudge.org/external/100/10083.pdf
+  Language: Java
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 import java.io.*;
 import java.util.*;
 import java.math.*;

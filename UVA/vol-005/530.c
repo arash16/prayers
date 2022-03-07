@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 530
   Name: Binomial Showdown
+  Problem: https://onlinejudge.org/external/5/530.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 int bcd(int I,int J)
 {
   int t,R;

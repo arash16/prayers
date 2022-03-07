@@ -1,12 +1,15 @@
 /*
-  >>> ACM PROBLEM <<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 294
   Name: Divisors
+  Problem: https://onlinejudge.org/external/2/294.pdf
+  Language: C++
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C++
 */
+
 #define maxp 32000
 #include <iostream>
 #include <cstring>

@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11448
+  Name: Who said crisis?
+  Problem: https://onlinejudge.org/external/114/11448.pdf
+  Language: Java
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;

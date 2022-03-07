@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 1225
+  Name: Digit Counting
+  Problem: https://onlinejudge.org/external/12/1225.pdf
+  Language: C
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 
 int count[10005][10];

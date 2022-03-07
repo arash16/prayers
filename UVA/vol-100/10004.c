@@ -1,11 +1,13 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10004
   Name: Bicoloring
+  Problem: https://onlinejudge.org/external/100/10004.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 char m[201][201];

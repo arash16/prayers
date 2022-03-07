@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10078
+##  Name: The Art Gallery
+##  Problem: https://onlinejudge.org/external/100/10078.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 def pdir(a, b, c):
   num = (b[0]-a[0])*(c[1]-a[1]) - (b[1]-a[1])*(c[0]-a[0])
   return 1 if num > 0 else -1 if num < 0 else 0

@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10107
   Name: What is the Median?
+  Problem: https://onlinejudge.org/external/101/10107.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 #include <math.h>
 #include <stdio.h>
 int main()

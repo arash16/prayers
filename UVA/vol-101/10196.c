@@ -1,11 +1,13 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10196
   Name: Check The Check
+  Problem: https://onlinejudge.org/external/101/10196.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 char board[9][9],c;

@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 12247
+##  Name: Jollo
+##  Problem: https://onlinejudge.org/external/122/12247.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from itertools import zip_longest, chain
 from sys import stdin, stdout
 I = list(map(int, stdin.read().split()))

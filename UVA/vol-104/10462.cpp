@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10462
+  Name: Is There A Second Way Left?
+  Problem: https://onlinejudge.org/external/104/10462.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>

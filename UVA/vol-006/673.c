@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 673
   Name: Parentheses Balance
+  Problem: https://onlinejudge.org/external/6/673.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 #include <stdio.h>
 
 char str[130];

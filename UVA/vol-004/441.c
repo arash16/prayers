@@ -1,11 +1,13 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 441
   Name: Lotto
+  Problem: https://onlinejudge.org/external/4/441.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 int s[13],k[7];

@@ -1,11 +1,13 @@
 /*
-  >>> ACM PROBLEM <<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10258
   Name: Contest Scoreboard
+  Problem: https://onlinejudge.org/external/102/10258.pdf
+  Language: C++
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C++
 */
 
 #include <iostream>

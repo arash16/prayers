@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 11517
+  Name: Exact Change
+  Problem: https://onlinejudge.org/external/115/11517.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #define INF 1073741824
 #include <stdio.h>
 #include <iostream>

@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 438
   Name: The Circumference of the Circle
+  Problem: https://onlinejudge.org/external/4/438.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 const double pi=3.141592653589793;
 void swap(double* x,double* y){
      *x+=*y;

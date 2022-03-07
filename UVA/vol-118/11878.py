@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 11878
+##  Name: Homework Checker
+##  Problem: https://onlinejudge.org/external/118/11878.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 import sys
 
 def solve(line):

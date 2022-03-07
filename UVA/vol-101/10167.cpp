@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10167
+  Name: Birthday Cake
+  Problem: https://onlinejudge.org/external/101/10167.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <bits/stdc++.h>
 #define PI 3.141592654
 #define EPS 1e-9

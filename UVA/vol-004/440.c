@@ -1,11 +1,13 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 440
-  Name: Ugly Numbers
+  Name: Eeny Meeny Moo
+  Problem: https://onlinejudge.org/external/4/440.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
 
 int main(){

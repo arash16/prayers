@@ -1,12 +1,15 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10033
   Name: Interpreter
+  Problem: https://onlinejudge.org/external/100/10033.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
+
 #include <stdio.h>
 unsigned short ram[1000],reg[10];
 

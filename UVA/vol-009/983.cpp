@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 983
+  Name: Localized Summing for Blurring
+  Problem: https://onlinejudge.org/external/9/983.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <stdio.h>
 int S[1001][1001], x;
 int main(){

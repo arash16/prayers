@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 785
+  Name: Grid Colouring
+  Problem: https://onlinejudge.org/external/7/785.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <cstring>
 #include <stdio.h>
 

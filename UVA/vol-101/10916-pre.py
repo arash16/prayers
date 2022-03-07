@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 10916
+##  Name: Factstone Benchmark
+##  Problem: https://onlinejudge.org/external/109/10916.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 years = map(lambda x: 1960+x*10, range(21))
 
 bits = []

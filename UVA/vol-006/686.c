@@ -1,13 +1,14 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 686
   Name: Goldbach's Conjecture (II)
+  Problem: https://onlinejudge.org/external/6/686.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
-
 
 char isprime(int n)
 {

@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 884
+  Name: Factorial Factors
+  Problem: https://onlinejudge.org/external/8/884.pdf
+  Language: Rust
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 use std::io::BufRead;
 
 fn divcount(n: i32, p: i32) -> i32 {

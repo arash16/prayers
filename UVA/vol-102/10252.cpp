@@ -1,3 +1,15 @@
+/*
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+  ID: 10252
+  Name: Common Permutation
+  Problem: https://onlinejudge.org/external/102/10252.pdf
+  Language: C++
+
+  Author: Arash Shakery
+  Email: arash.shakery@gmail.com
+*/
+
 #include <cstdlib>
 #include <iostream>
 #include <cstring>

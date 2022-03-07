@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 11683
+##  Name: Laser Sculpture
+##  Problem: https://onlinejudge.org/external/116/11683.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 I = list(map(int, stdin.read().split()))
 

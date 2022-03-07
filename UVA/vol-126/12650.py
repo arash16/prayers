@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 12650
+##  Name: Dangerous Dive
+##  Problem: https://onlinejudge.org/external/126/12650.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from sys import stdin, stdout
 I = list(map(int, stdin.read().split()))
 s = 0

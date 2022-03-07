@@ -1,3 +1,13 @@
+##  >>~~ UVa Online Judge ACM Problem Solution ~~<<
+
+##  ID: 11997
+##  Name: K Smallest Sums
+##  Problem: https://onlinejudge.org/external/119/11997.pdf
+##  Language: Python
+
+##  Author: Arash Shakery
+##  Email: arash.shakery@gmail.com
+
 from heapq import heapify, heappush, heappop
 from sys import stdin, stdout
 

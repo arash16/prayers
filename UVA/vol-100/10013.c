@@ -1,13 +1,14 @@
 /*
-  >>~~ ACM PROBLEM ~~<<
+  >>~~ UVa Online Judge ACM Problem Solution ~~<<
 
   ID: 10013
   Name: Super long sums
+  Problem: https://onlinejudge.org/external/100/10013.pdf
+  Language: C
+
   Author: Arash Shakery
   Email: arash.shakery@gmail.com
-  Language: C
 */
-
 
 int main()
 {
