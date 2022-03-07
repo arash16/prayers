@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+inp
+out
+.vscode
+$.*
